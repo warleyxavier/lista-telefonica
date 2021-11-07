@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lista-telefonica", "lista-telefonica\lista-telefonica.csproj", "{3DEB05C8-060C-4EE8-8C02-7DD21CBE18D0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lista-telefonica-api", "lista-telefonica\lista-telefonica-api.csproj", "{3DEB05C8-060C-4EE8-8C02-7DD21CBE18D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lista-telefonica-domain", "lista-telefonica-domain\lista-telefonica-domain.csproj", "{F897F1A3-FB08-4868-AB27-08851AC2432B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lista-telefonica-tests", "lista-telefonica-tests\lista-telefonica-tests.csproj", "{2A0BAEE7-B7A6-441B-A517-8B2F441110CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3DEB05C8-060C-4EE8-8C02-7DD21CBE18D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DEB05C8-060C-4EE8-8C02-7DD21CBE18D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DEB05C8-060C-4EE8-8C02-7DD21CBE18D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F897F1A3-FB08-4868-AB27-08851AC2432B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F897F1A3-FB08-4868-AB27-08851AC2432B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F897F1A3-FB08-4868-AB27-08851AC2432B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F897F1A3-FB08-4868-AB27-08851AC2432B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A0BAEE7-B7A6-441B-A517-8B2F441110CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0BAEE7-B7A6-441B-A517-8B2F441110CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0BAEE7-B7A6-441B-A517-8B2F441110CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0BAEE7-B7A6-441B-A517-8B2F441110CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
